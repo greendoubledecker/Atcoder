@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+int main(){
+	char c;
+	cin >> c;
+	if(c == 'B') cout << "Y\n";
+	if(c == 'Y') cout << "R\n";
+	if(c == 'R') cout << "B\n";
+}
